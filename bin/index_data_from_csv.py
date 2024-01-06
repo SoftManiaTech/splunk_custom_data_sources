@@ -1,6 +1,6 @@
 import csv
 
-file = open(f'C:\\Program Files\\Splunk\\etc\\apps\\flames_app\\bin\\sample_data.csv')
+file = open(f'C:\\Program Files\\Splunk\\etc\\apps\\sample_app\\bin\\sample_data.csv')
 type(file)
 
 csvreader = csv.reader(file)
